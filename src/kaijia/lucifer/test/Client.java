@@ -57,11 +57,9 @@ public class Client {
         String result = wareHouseService.listWareHouse("{\"wareHouseNo\":\"YFPWIP\"}");
         System.out.println(result);*/
 
-/*
         Endpoint.publish("http://10.162.244.108:80/TMS_TIPTOP/findOrderDetail", new CustomServiceImpl());
         System.out.println("OK");
-        System.out.println("http://10.131.120.72:80/TMS_TIPTOP/findOrderDetail?wsdl");  // webservice 接口发布到服务器上
-*/
+        System.out.println("http:/10.162.244.108:80/TMS_TIPTOP/findOrderDetail?wsdl");  // webservice 接口发布到服务器上
 
 /*        Report report = new Report();
         report.setOrder_no("order_no");
